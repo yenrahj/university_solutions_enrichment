@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/cron/enrich-queue.js": {
+      "includeFiles": "data/**"
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cron/enrich-queue",
+      "schedule": "*/15 * * * *"
+    }
+  ]
+}
