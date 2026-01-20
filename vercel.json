@@ -7,7 +7,7 @@
   "crons": [
     {
       "path": "/api/cron/enrich-queue",
-      "schedule": "*/15 * * * *"
+      "schedule": "*/10 * * * *"
     }
   ]
 }
